@@ -1,0 +1,29 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.top_h{
+  font-size: 2em;
+  padding: 0 0 0 20px;
+}
+
+.top_box{
+  padding: 0 0 0 40px;
+}
+
+strong{
+  font-family:  verdana, sans-serif;
+}
+
+p{
+  padding-bottom: 2em;
+}
+
+p:last-child{
+  padding-bottom: 0;
+}
+
+a:hover{
+  background-color: black;
+  color: white;
+}

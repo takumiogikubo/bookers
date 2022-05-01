@@ -1,0 +1,111 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+// Booksはここから
+#notice{
+  font-size: 12px;
+  color: green;
+  padding: 10px 0 0 60px;
+  margin:0 ;
+}
+
+.index_h{
+  font-size: 25px;
+  padding: 10px 0 0 30px;
+  margin: 0;
+}
+
+h1 h3{
+  font-family:  verdana, sans-serif;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 20px 8px;
+  padding: 10px 0 0 20px;
+  font-size: 13px;
+}
+
+.index_table_p{
+  margin: 0 ;
+}
+
+.books_action{
+  display: flex;
+}
+
+.books_action > div{
+  padding: 0 10px 0 0;
+}
+
+// New bookはここから
+.new_book{
+  padding: 0 0 0 30px;
+}
+
+h6{
+  margin: 12px 0 0 0;
+}
+
+// showはここから
+
+.show_flex{
+  padding: 0 0 0 60px;
+  margin: 0;
+}
+
+.show_flex_in{
+  display: flex;
+  height: 1em;
+  margin: 0;
+  margin: 35px 0 0 0 ;
+}
+
+.show_flex_in > h3 {
+  margin: 0;
+  font-size: 13px;
+}
+
+.show_flex_in > p {
+  margin: 0;
+  font-size: 13px;
+  padding: 0 0 0 3px;
+}
+
+.show_action{
+  height: auto;
+  font-size: 12px;
+  padding: 35px 0 0 20px;
+}
+
+.show_action > p{
+  margin: 0;
+}
+
+// editはここから
+
+.edit{
+  padding: 15px 0 0 30px;
+}
+
+.edit > h3{
+  font-size: 25px;
+  margin: 0;
+}
+
+.edit > p{
+  font-size: 12px;
+}
+
+
+// indexとedit共通はここから
+
+.submit_block{
+  display: block;
+}
+
+.submit{
+  margin: 6px 0 0 0;
+}
